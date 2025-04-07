@@ -16,6 +16,7 @@ import {
   SiNotion,
   SiPowerbi,
   SiSwagger,
+  SiWordpress,
 } from "react-icons/si";
 
 // Counter
@@ -78,6 +79,7 @@ const aboutData = [
         icons: [
           { icon: <SiHtml5 key="jest" />, key: "HTML" },
           { icon: <SiCss3 key="vitest" />, key: "CSS" },
+          { icon: <SiWordpress key="vitest" />, key: "Wordpress" },
           {
             icon: <SiFlutter key="testing-lib" />,
             key: "Flutter",
@@ -107,36 +109,36 @@ const aboutData = [
         title:
           "Led the research and design for mobile and web features, using Figma and Miro to create user flows, wireframes, and interactive prototypes.",
         company: "UI/UX Design",
-        stage: "2022 - 2024",
-        companyLink: "https://www.brikl.com",
+        stage: "2023",
       },
       {
         title:
           "Leveraged Mixpanel to gather insights on user behavior and continuously improve product decisions.",
         company: "Feature Analytics",
-        stage: "2021 - 2022",
-        companyLink: "https://www.tcs.com",
+        stage: "2024",
       },
       {
         title:
           "Helped optimize product search experience through data-driven recommendations and interface refinement.",
         company: "Search Optimization",
-        stage: "2019 - 2021",
-        companyLink: "https://tech.allianz.com/en.html",
+        stage: "2024",
       },
       {
         title:
           "Streamlined third-party product management by automating titles, categories, and descriptions in English and Thai.",
         company: "Content Automation",
-        stage: "2018 - 2019",
-        companyLink: "https://calcey.com",
+        stage: "2024",
       },
       {
         title:
           "Worked alongside designers, developers, QAs, and business stakeholders in an Agile environment.",
         company: "Cross-functional Collaboration",
-        stage: "2015",
-        companyLink: "",
+        stage: "2024",
+      },
+      {
+        title: "Personal blog developed using Wordpress.",
+        company: "Personal Project",
+        stage: "2023",
       },
     ],
   },

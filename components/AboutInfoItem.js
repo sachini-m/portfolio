@@ -12,17 +12,15 @@ export default function AboutInfoItem({ item }) {
               <div className="text-2xl text-white group" key={itemIndex}>
                 {icon.icon}
                 {/* tooltip */}
-                {item.key && (
-                  <div className="relative right-0 hidden xl:group-hover:flex top-[6px] left-[-6px]">
-                    <div className="absolute bg-white flex text-primary items-center p-[6px] rounded-[3px]">
-                      <div className="text-[11px] leading-none font-semibold capitalize whitespace-nowrap">
-                        {icon.key}
-                      </div>
-                      {/* triangle */}
-                      <div className="border-solid border-l-white border-l-8 border-y-transparent border-x-[6px] absolute -top-2"></div>
+                <div className="relative right-0 hidden xl:group-hover:flex top-[6px] left-[-6px]">
+                  <div className="absolute bg-white flex text-primary items-center p-[6px] rounded-[3px]">
+                    <div className="text-[11px] leading-none font-semibold capitalize whitespace-nowrap">
+                      {icon.key}
                     </div>
+                    {/* triangle */}
+                    <div className="border-solid border-l-white border-l-8 border-y-transparent border-x-[6px] absolute -top-2"></div>
                   </div>
-                )}
+                </div>
               </div>
             );
           })}
