@@ -24,22 +24,22 @@ const workSlider = {
         {
           title: "Makro Pro",
           image: "/projects/1.jpg",
-          link: "https://www.figma.com/community/file/1490603446637811427",
+          link: "https://www.figma.com/design/jJr9txh7LkYFX5lxzE89AD/Untitled?node-id=0-1&t=K1KCjMIJWoyKT8v8-1",
         },
         {
           title: "Be With-You",
           image: "/projects/2.jpg",
-          link: "https://www.figma.com/community/file/1490615097694191336/be-with-yous-ux-ui-design-copy",
+          link: "https://www.figma.com/design/P6klEcQds5Viyo4JnEkPiG/Be-With-You-s-UX-UI-Design--Copy---Community-?t=3tgeDpXtkszzwQSD-1",
         },
         {
           title: "EV Charging",
           image: "/projects/3.jpg",
-          link: "https://www.figma.com/community/file/1490610558158435046",
+          link: "https://www.figma.com/design/sdW54EPEjLGRVNrhe1TmAU/Smart-Car-Reservation--Community-?node-id=6-2&t=3tgeDpXtkszzwQSD-1",
         },
         {
           title: "KMUTNB Run",
           image: "/projects/4.jpg",
-          link: "https://www.figma.com/community/file/1490617969738668777",
+          link: "https://www.figma.com/design/gQYn7xCAxyD1gnmpgJe2vv/KMUTNB-RUN--Community-?t=3tgeDpXtkszzwQSD-1",
         },
       ],
     },
