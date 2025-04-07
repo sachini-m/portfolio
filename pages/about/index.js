@@ -132,12 +132,6 @@ const aboutData = [
         companyLink: "https://calcey.com",
       },
       {
-        title: "Associate Software Engineer",
-        company: "Mutants International",
-        stage: "2016 - 2018",
-        companyLink: "",
-      },
-      {
         title:
           "Worked alongside designers, developers, QAs, and business stakeholders in an Agile environment.",
         company: "Cross-functional Collaboration",
@@ -278,7 +272,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0  pr-6">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={9} duration={4} /> +
+                  <CountUp start={0} end={7} duration={4} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4]">
                   Certifications
@@ -296,7 +290,7 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={4} /> +
+                  <CountUp start={0} end={5} duration={4} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[140px]">
                   Awards
